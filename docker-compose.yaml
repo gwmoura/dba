@@ -8,3 +8,5 @@ services:
       - ./test_db:/test_db
     ports:
       - 33066:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
